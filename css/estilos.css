@@ -1,9 +1,25 @@
-.contenedor {
-  background: #000;
-  width: 400px;
-  margin: 0 auto;
-  height: 400px;
+/*---------------------------*/
+/* Variables */
+/*---------------------------*/
+/*Colores*/
+/*Fuentes*/
+/*--------------------------*/
+/*Generales*/
+/*--------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.contenedor h1 {
-  color: #fff;
+body {
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  color: #303133;
+}
+.container {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
 }
