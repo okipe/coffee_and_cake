@@ -122,7 +122,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="titulo-seccion">
+                    <div class="titulo-section">
                         <h2>Nuestro chef</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <p> Reprehenderit culpa sunt consequuntur architecto dolores provident eveniet officia, fuga nisi sed, ipsa quisquam nostrum reiciendis tempora maiores, nesciunt itaque vitae? Accusamus?</p>
@@ -134,17 +134,17 @@
         <!-- Nuestro menú -->
         <section id="nuestro_menu" class="menu-platos">
             <div class="container">
-                <div class="titulo-seccion">
+                <div class="titulo-section">
                     <h2>Nuestro menú</h2>
                 </div>
                 <div class="contenedor-menu">
                     <ul id="encabezado_menu" class="encabezado">
-                        <li class="active"><a href="#postres">Postres</a></li>
+                        <li><a href="#postres">Postres</a></li>
                         <li><a href="#cafes">Cafés</a></li>
                     </ul>
                     <div class="contenido" id="contenido_menu">
                         <!-- Menú postres -->
-                        <div id="postres" class="active">
+                        <div class="postres">
                             <div class="item">
                                 <div class="col izq">
                                     <h3>Lorem ipsum dolor.</h3>
@@ -153,9 +153,7 @@
                                 <div class="col der">
                                     <p class="precio">$15</p>
                                 </div>
-                            </div>
 
-                            <div class="item">
                                 <div class="col izq">
                                     <h3>Molestiae dolorem sapiente.</h3>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae doloremsapiente earum pebitis.</p>
@@ -163,9 +161,7 @@
                                 <div class="col der">
                                     <p class="precio">$12</p>
                                 </div>
-                            </div>
 
-                            <div class="item">
                                 <div class="col izq">
                                     <h3>Molestiae dolorem sapiente earum pebitis.</h3>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae dolorem sapiente earum pebitis.</p>
@@ -173,9 +169,7 @@
                                 <div class="col der">
                                     <p class="precio">$32</p>
                                 </div>
-                            </div>
 
-                            <div class="item">
                                 <div class="col izq">
                                     <h3>Dolor sit amet consectetur.</h3>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae doloremsapiente earum pebitis.</p>
@@ -196,9 +190,7 @@
                                 <div class="col der">
                                     <p class="precio">$14</p>
                                 </div>
-                            </div>
 
-                            <div class="item">
                                 <div class="col izq">
                                     <h3>Molestiae dolorem cafe.</h3>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae dolorem sapiente earum pebitis.</p>
@@ -206,9 +198,7 @@
                                 <div class="col der">
                                     <p class="precio">$16</p>
                                 </div>
-                            </div>
 
-                            <div class="item">
                                 <div class="col izq">
                                     <h3>Molestiae dolorem sapiente earum cafe.</h3>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae dolorem sapiente earum pebitis.</p>
@@ -216,9 +206,7 @@
                                 <div class="col der">
                                     <p class="precio">$10</p>
                                 </div>
-                            </div>
 
-                            <div class="item">
                                 <div class="col izq">
                                     <h3>Dolor sit amet cafe.</h3>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae dolorem  sapiente earum pebitis.</p>
