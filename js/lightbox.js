@@ -5,7 +5,11 @@
 var propLightbox = {
     imgContainer: document.getElementsByClassName('lightbox'),
     imagen: null,
+    //esto iniciará nulo porque no quiero que tenga valor pero que si exista.
+
     imagenSrc: null,
+    //esto es para seleccionar la imagen que refiere el CSS
+
     cuerpoDom: document.getElementsByTagName('body')[0],
     lightbox_container: null,
     modal: null,
@@ -13,20 +17,30 @@ var propLightbox = {
     animacion: 'fade'
 }
 
+// Objetos con los métodos del efecto Lightbox
+
 var metLightbox = {
     inicio: function(){
         for (var i = 0; i < propLightbox.imgContainer.length; i++) {
+            // crear una variable de inicio que sea cero, que se repite el ciclo mientras i sea menor a la cantidad de elementos que tenga el arreglo y luego que actualice la variable i en cada ejecución.
             propLightbox.imgContainer[i].addEventListener('click', metLightbox.capturaImagen);
-        } 
+
+        }  
     },
 
     capturaImagen: function(){
         propLightbox.imagen = this;
-        metLightbox.lightbox(propLightbox.imagen); 
+        metLightbox.lightbox(propLightbox.imagen);
+        //Estos sirvirán cuando se cree el método lightbox. Este alamcenará la imagen que se hizo clic y luego ejecutará el metLightbox, el cual tendrá la imagen capturada.
+
     },
 
     lightbox: function(imagen){
+    // Esto toma la imagen de la función anterior para esta función
+
         propLightbox.imagenSrc = window.getComputedStyle(imagen, null).backgroundImage.slice(5, -2);
+        // Este método window.getComputedStyle permite ver las propiedades del CSS que ya están asigandas. El imagen.style solo sirve para asignar estilos CSS únicamente. Cuando uso el bakground.Image, obtengo la URl, meintras que con slice, puedo cortar las primeras y últimas letras de un stream según los parámetros asignados.
+
         propLightbox.cuerpoDom.appendChild(document.createElement('DIV')).setAttribute('id', 'lightbox_container');
         propLightbox.lightbox_container = document.getElementById('lightbox_container');
         propLightbox.lightbox_container.style.width = '100%';
@@ -64,6 +78,7 @@ var metLightbox = {
 }
 
 metLightbox.inicio();
+// Esto ejecuta el código anterior.
 
 }())
 
