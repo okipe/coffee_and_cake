@@ -499,9 +499,9 @@ header .menu-bar-movil .slideMenu .menu-principal {
   font-size: 1rem;
   line-height: 1rem;
   margin-left: 1rem;
-  -webkit-transition: all 0.3 ease;
-  -o-transition: all 0.3 ease;
-  transition: all 0.3 ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .main .contacto .formulario .formulario_contacto .input-group label.label.active {
   top: -0.75rem;
