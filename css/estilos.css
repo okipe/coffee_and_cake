@@ -117,7 +117,7 @@ header .menu-bar-movil .logo {
 }
 header .menu-bar-movil .burger-menu {
   cursor: pointer;
-  font-size: 2.1775rem;
+  font-size: 2.1875rem;
 }
 header .menu-bar-movil .slideMenu {
   position: fixed;
@@ -140,7 +140,7 @@ header .menu-bar-movil .slideMenu .top-redes {
 header .menu-bar-movil .slideMenu .top-redes a {
   padding: 0 0.5625rem;
 }
-header .menu-bar-movil .slideMenu .menu-principal {
+header .menu-bar-movil .slideMenu .menu-principal a {
   display: block;
   padding: 0.625rem 0;
   border-top: 1px solid #eaeaea;
